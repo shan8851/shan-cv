@@ -1,7 +1,8 @@
 import s from "./Header.module.scss";
-import { data } from "../../data/header";
 import Logo from "../../assets/punk.png";
 import { FaPhone, FaChrome, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
+
 export const Header = () => {
   return (
     <div className={s.container}>
@@ -36,6 +37,9 @@ export const Header = () => {
         </a>
         <a className={s.link} href="tel:07784158641">
           <FaPhone className={s.icon} />
+        </a>
+        <a className={s.link} href="mailto:asamshan456@gmail.com">
+          <MdOutlineMail className={s.icon} />
         </a>
       </div>
     </div>

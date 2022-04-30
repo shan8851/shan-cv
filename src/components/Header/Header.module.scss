@@ -5,12 +5,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: $tablet) {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: $tablet) {
+    margin-bottom: $x2;
+  }
 }
 
 .logo {

@@ -7,6 +7,11 @@
   padding: $space-huge;
   max-width: $desktop;
   margin: $space-mega auto;
+
+  @media (max-width: $tablet) {
+    margin: $space-normal;
+    padding: $space-normal;
+  }
 }
 
 .line {

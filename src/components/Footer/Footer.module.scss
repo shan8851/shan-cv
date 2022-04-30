@@ -1,0 +1,19 @@
+@import "../../styles/colors";
+@import "../../styles//variables";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 0 $space-normal $space-large $space-normal;
+  max-width: $desktop;
+  margin: auto;
+}
+
+.altColor {
+  color: $green;
+}
+
+.altText {
+  color: $green;
+  font-weight: 700;
+}

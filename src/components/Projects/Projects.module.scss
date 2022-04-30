@@ -1,2 +1,37 @@
 @import "../../styles/colors";
 @import "../../styles//variables";
+
+.line {
+  border-top: 1px solid $green;
+  margin: $x2 0;
+}
+
+.heading {
+  @media (max-width: $tablet) {
+    font-size: 24px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.link {
+  font-size: 16px;
+  color: $green;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
