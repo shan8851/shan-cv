@@ -1,0 +1,51 @@
+@import "../../styles/colors";
+@import "../../styles//variables";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.nameSection {
+  margin-left: $x2;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 26px;
+  margin: 0;
+}
+
+.wallet {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: $x2;
+  font-size: 22px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.6;
+  }
+}
