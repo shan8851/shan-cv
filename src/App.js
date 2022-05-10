@@ -5,6 +5,7 @@ import { Projects } from "./components/Projects/Projects";
 import s from "./styles/Home.module.scss";
 import { Notes } from "./components/Notes/Notes";
 import { Footer } from "./components/Footer/Footer";
+import { DownloadIcon } from "./components/DownloadIcon/DownloadIcon";
 
 function App() {
   return (
@@ -12,10 +13,12 @@ function App() {
       <div className={s.container}>
         <Header />
         <div className={s.line} />
+        <DownloadIcon />
         <Skills />
         <Work />
         <Projects />
         <Notes />
+        <DownloadIcon />
       </div>
       <Footer />
     </>
