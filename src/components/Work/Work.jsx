@@ -10,11 +10,9 @@ export const Work = () => {
         {data.map((item, index) => (
           <div key={index}>
             <div>
-              <h3 className={s.companyName}>{item.company}</h3>
-              <span className={s.jobTitle}>{item.title}</span>
+              <h3 className={s.jobTitle}>{item.title}</h3>
+              <span className={s.companyName}>{item.company}</span>
             </div>
-            <p className={s.date}>{item.dates}</p>
-
             <div>
               <ul key={index}>
                 {item.bullets.map((bullet, index) => (

@@ -1,7 +1,4 @@
 export const data = [
-  "ethersjs",
-  "solidity",
-  "hardhat",
   "React",
   "React Native",
   "GraphQL",
@@ -9,8 +6,12 @@ export const data = [
   "NextJS",
   "CSS-in-JS",
   "Version Control",
+  "ethersjs",
+  "solidity",
+  "hardhat",
   "Express",
   "REST API",
   "AWS (EC2, S3, Route53)",
   "Firebase",
+  "Docker",
 ];
