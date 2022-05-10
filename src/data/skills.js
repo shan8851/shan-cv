@@ -1,6 +1,7 @@
 export const data = [
   "React",
   "React Native",
+  "Typescript",
   "GraphQL",
   "NodeJS",
   "NextJS",
