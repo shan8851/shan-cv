@@ -13,7 +13,6 @@ function App() {
       <div className={s.container}>
         <Header />
         <div className={s.line} />
-        <DownloadIcon />
         <Skills />
         <Work />
         <Projects />

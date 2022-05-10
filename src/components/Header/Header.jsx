@@ -1,6 +1,14 @@
 import s from "./Header.module.scss";
 import Logo from "../../assets/punk.png";
-import { FaPhone, FaChrome, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import PDF from "../../assets/cv.pdf";
+import {
+  FaPhone,
+  FaChrome,
+  FaLinkedinIn,
+  FaGithub,
+  FaTwitter,
+  FaFileDownload,
+} from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 
 export const Header = () => {
@@ -14,6 +22,9 @@ export const Header = () => {
         </div>
       </div>
       <div className={s.info}>
+        <a href={PDF} download="cv" className={s.downloadContainer}>
+          <FaFileDownload className={s.icon} />
+        </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -27,6 +38,13 @@ export const Header = () => {
           rel="noopener noreferrer"
         >
           <FaLinkedinIn className={s.icon} />
+        </a>
+        <a
+          href="https://twitter.com/shan8851"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTwitter className={s.icon} />
         </a>
         <a
           href="https://github.com/shan8851"

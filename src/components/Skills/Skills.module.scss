@@ -27,4 +27,8 @@
   border-radius: $x2;
   padding: $x1 $x2;
   margin: $x1;
+  cursor: pointer;
+  &:hover {
+    color: $green;
+  }
 }
