@@ -1,5 +1,14 @@
 export const data = [
   {
+    company: "Let's Eat",
+    title: "Co-Founder & CTO",
+    bullets: [
+      "Contributing in all stages of the technical product life cycle, including architecture and planning, development, testing and deployment, and ongoing maintenance.",
+      "Closely worked with tech leads to address tech debt, ensuring high-quality solutions were delivered in a timely manner while upholding company SLAs.",
+      "Identified and resolved any issues relating to hardware, software, and network infrastructure that were slowing down the operations of an organisation serving thousands of customers each year.",
+    ],
+  },
+  {
     company: "Uniwhales DAO/Cielo Finance",
     title: "Frontend Engineer",
     bullets: [
@@ -8,13 +17,11 @@ export const data = [
       "Working closely with the backend and design team to build out pixel perfect frontends and easy to use web3 integration",
     ],
   },
-  {
-    company: "Let's Eat",
-    title: "Co-Founder & CTO",
+    {
+    company: "Eighty Eight Dev",
+    title: "Founder",
     bullets: [
-      "Contributing in all stages of the technical product life cycle, including architecture and planning, development, testing and deployment, and ongoing maintenance.",
-      "Closely worked with tech leads to address tech debt, ensuring high-quality solutions were delivered in a timely manner while upholding company SLAs.",
-      "Identified and resolved any issues relating to hardware, software, and network infrastructure that were slowing down the operations of an organisation serving thousands of customers each year.",
+      "Software consultancy delivering modern scalable solutions.",
     ],
   },
   {
