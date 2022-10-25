@@ -1,5 +1,14 @@
 export const data = [
   {
+    company: "Uniwhales DAO/Cielo Finance",
+    title: "Frontend Engineer",
+    bullets: [
+      "Building the number 1 Defi analytics feed in web 3!",
+      "Shipped first iteration of Cielo feed, profile pages and currently working on NFT related dashboards and adding support for non EVM chains. Solano coming up first",
+      "Working closely with the backend and design team to build out pixel perfect frontends and easy to use web3 integration",
+    ],
+  },
+  {
     company: "Let's Eat",
     title: "Co-Founder & CTO",
     bullets: [
