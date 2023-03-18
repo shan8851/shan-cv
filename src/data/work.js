@@ -1,5 +1,17 @@
 export const data = [
   {
+    company: "Uniwhales DAO/Cielo Finance",
+    title: "Frontend Engineer",
+    bullets: [
+      "Spearheaded the development of the Cielo - a Defi analytics feed as a Lead Developer at Uniwhales.",
+      "Took charge of implementing the first iteration of the Cielo feed, which now tracks 16 EVM chains with React and Typescript and has over 25,000 users (as of 03/2023).",
+      "Worked on supplementary dashboards to help NFT traders identify promising projects and built a comprehensive stats page to monitor wallet trends and activity for various different categories.",
+      "​​Collaborated closely with the backend and design teams to ensure seamless integration and a visually stunning user experience.",
+      "Received high praise from users and stakeholders for my work on the pixel-perfect front-ends and easy-to-use web3 integrations.",
+      "Driving continued innovation in the Defi analytics space as part of this dynamic team, with Cielo set to launch a free tier in April 2023."
+    ],
+  },
+  {
     company: "Let's Eat",
     title: "Co-Founder & CTO",
     bullets: [
@@ -10,15 +22,6 @@ export const data = [
     ],
   },
   {
-    company: "Uniwhales DAO/Cielo Finance",
-    title: "Frontend Engineer",
-    bullets: [
-      "Building the number 1 Defi analytics feed in web 3!",
-      "Shipped first iteration of Cielo feed, profile pages and currently working on NFT related dashboards and adding support for non EVM chains. Solano coming up first",
-      "Working closely with the backend and design team to build out pixel perfect frontends and easy to use web3 integration",
-    ],
-  },
-    {
     company: "Eighty Eight Dev",
     title: "Founder",
     bullets: [
