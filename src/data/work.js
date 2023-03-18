@@ -22,13 +22,6 @@ export const data = [
     ],
   },
   {
-    company: "Eighty Eight Dev",
-    title: "Founder",
-    bullets: [
-      "Software consultancy delivering modern scalable solutions.",
-    ],
-  },
-  {
     company: "Library of Things",
     title: "Software Engineer",
     bullets: [
@@ -63,14 +56,5 @@ export const data = [
       "Five former mentees are now employed in the industry",
     ],
   },
-  {
-    company: "Various",
-    title: "Writer",
-    bullets: [
-      "Extensive networking to secure clients.",
-      "Negotiated rates and deadlines for time sensitive projects..",
-      "Reporting and invoicing.",
-      "Built an online portfolio for better presence and to aid with securing new clients.",
-    ],
-  },
+
 ];
